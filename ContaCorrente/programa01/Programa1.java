@@ -2,10 +2,10 @@ package programa01;
 
 /*PROGRAMA CONTACORRENTE
 Crie uma classe para implementar uma conta corrente. 
-A classe deve possuir os seguintes atributos: número da conta, nome do correntista e saldo. 
-Os métodos são os seguintes: alterarNome, depósito e saque; 
-No construtor, saldo é opcional, 
-com valor default zero e os demais atributos são obrigatórios.
+A classe deve possuir os seguintes atributos: nï¿½mero da conta, nome do correntista e saldo. 
+Os mï¿½todos sï¿½o os seguintes: alterarNome, depï¿½sito e saque; 
+No construtor, saldo ï¿½ opcional, 
+com valor default zero e os demais atributos sï¿½o obrigatï¿½rios.
   */
 public class Programa1 {
 	
@@ -40,7 +40,7 @@ public class Programa1 {
 
 	public Programa1(){//Construtor
 		this.setNumConta(123456789);
-		this.setNome("Dalmo");
+		this.setNome("Sandra");
 		this.setSaldo(0);
 		
 	}
@@ -52,7 +52,7 @@ public class Programa1 {
 	}
 	public void depositar(float v){
 		this.setSaldo(this.getSaldo() + v);
-		System.out.println("Depósito de: " + this.getSaldo() + 
+		System.out.println("Depï¿½sito de: " + this.getSaldo() + 
 		" realizado na conta de: " + this.getNome());
 		 
 	}

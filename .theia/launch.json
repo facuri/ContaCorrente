@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "CodeLens (Launch) - TestaPrograma1",
+        "request": "launch",
+        "mainClass": "programa01.TestaPrograma1",
+        "projectName": "ContaCorrente_210d7dec"
+    },
+    {
+        "name": "Attach to Process",
+        "type": "go",
+        "request": "attach",
+        "mode": "local",
+        "processId": 0
+    }
+]
+}
